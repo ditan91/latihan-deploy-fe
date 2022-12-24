@@ -1,0 +1,276 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+/* bootstrap */
+html, body, main{
+  overflow-x: hidden;
+  font-family: 'Helvetica';
+  font-style: normal;
+}
+.button{
+  border: none;
+  color: white; 
+  background-color: #5CB85F;
+  font-size: 14px;
+  width: 81px;
+  height: 36px;
+}
+.h1-text{
+  color: #000000;
+  font-size:32px;
+  font-weight: 700;
+}
+.h2-text{
+  color: #000000;
+  font-size:24px;
+  font-weight: 700;
+}
+.p-text{
+  font-size:14px;
+}
+.p2-text{
+  font-size:14px;
+}
+.text-title-dropdown{
+  text-align: left;
+}
+
+.dropdown-item{
+  width: 600px;
+}
+.btn-outline{
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #D4D4D4;
+  border-radius: 4px;
+  width: 600px;
+  height: 56px;
+}
+.cariMobil{
+  position: absolute;
+  left: 10px;
+  top: 480px;
+  z-index: 1;
+  box-shadow: 0px 3px 3px 3px #888888;
+}
+.dropdown-item-carimobil{
+  width:245px;
+  color: #747272
+}
+/* Tablet */
+@media (max-width: 576px) {
+  .nav-text{
+      color: #000000;
+  }
+  .one{
+      margin-top: 32px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 50px;
+  }
+  .img-car{
+      width: 530px;
+      margin-top: 30px;
+  }
+  .header-text{
+      margin-right: 30px;
+  }
+  .img-service{
+      margin-bottom: 60px;
+      margin-top: -150px;
+  }
+  .section-3{
+      margin: 20px;
+      padding-top: 50px;
+  }
+  .card-why{
+      margin-left: 20px;
+      width: 90%;
+  }
+  .text{
+      text-align: center;
+  }
+  .container-blue{
+      margin-left: 7%;
+      margin-right: 6%
+  }
+  .dropdown-item{
+      width: 500px;
+  }
+  .btn-outline{
+      width: 500px;
+      margin-left: 75px;
+  }
+  .owl-space{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .card-owl{
+      align-items: center;
+  }
+  .testimonial{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+
+  }
+  .rate{
+      text-align: center;
+  }
+  .img-testimonial{
+      /* margin-left: 215px; */
+      margin-left: 43%;
+      margin-top: 10px;
+  }
+  .img-rate{
+      width: 10px;
+      /* margin-left: 215px; */
+      margin-left: 43%;
+      margin-top: 10px;
+  }
+}
+/* Mobile (read : run this with MobileView extend in Visual Code Studio) */
+@media (max-width: 360px) {
+  .img-car{
+      width: 310px;
+  }
+  .img-service{
+      width: 230px;
+      margin-left: 50px;
+      margin-bottom: 30px;
+  }
+  .sub-section-2{
+      margin-left: 20px;
+  }
+  .section-3{
+      margin-left: 0px;
+  }
+  .card-why{
+      width: 90%;
+  }
+  .text-container-blue{
+      margin-left: 20%;
+  }
+  .blue-text{
+      margin: 0px;
+  }
+  .dropdown-item{
+      width: 300px;
+  }
+  .btn-outline{
+      width: 300px;
+      margin-left: 45px;
+      height: 60px;
+  }
+  .h2-text{
+      font-size: 20px;
+  }
+  .p2-text{
+      font-size: 12px;
+  }
+  .img-testimonial{
+      /* margin-left: 215px; */
+      margin-left: 39%;
+      margin-top: 10px;
+  }
+  .img-rate{
+      width: 10px;
+      /* margin-left: 215px; */
+      margin-left: 39%;
+      margin-top: 10px;
+  }
+  
+}
+/* Desktop  */
+@media (min-width: 576.1px) {
+  .masuk{
+      text-decoration: none;
+      color: #000000;
+  }
+  .navbar{
+      background-color:transparent;
+      /* position: fixed; */
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+  .navnav{
+      margin-left: 80px;
+      margin-right: 80px;
+  }
+  .nav-text{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #000000;
+  }
+  .btn-header{
+      height: 60px; 
+  }
+  .one{
+      margin-left: 190px;
+  }
+  .col-one{
+      margin-top: 60px;
+  }
+  .img-car{
+      margin-left: -40px;
+  }
+  .img-service{
+      width: 404px;
+      height: 373px;
+      margin-left: 200px;
+      margin-top: -45px;
+  }
+  .sub-section-2{
+      margin-top: -20px;
+      
+  }
+  .text-sub-section-2{
+      margin-right:80px;
+  }
+  .section-3{
+      margin:136px;
+  }
+  .card-why{
+      width: 250px;
+      height: 200px;
+  }
+  .container-blue{
+      margin-left: 10%;
+      margin-right: 8.7%
+  }
+  .owl-space{
+      margin-left: -900px;
+      margin-right: -900px;
+  }
+  .testimonial{
+      margin-top:45px; 
+      margin-left: -40px;
+  }
+  .rate{
+      margin-top:32px; 
+      margin-left: -160px;
+  }
+  .img-testimonial{
+      margin-top: 30px;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+  .img-rate{
+      width:30%;
+      margin-top: 10px;
+      margin-bottom: 5px;
+  }
+  /* .cariMobil{
+      position: absolute;
+      left: 10px;
+      top: 480px;
+      z-index: 1;
+  } */
+}
